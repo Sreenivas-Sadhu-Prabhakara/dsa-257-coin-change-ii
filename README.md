@@ -12,6 +12,13 @@ One row `dp[a]` = combinations for amount a, seeded `dp[0] = 1` (the empty combi
 
 **Complexity:** O(coins · amount) time, O(amount) space.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
